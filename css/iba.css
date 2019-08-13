@@ -1,0 +1,358 @@
+@CHARSET "UTF-8";
+
+html.noscroll,
+body.noscroll {
+	overflow: hidden;
+	padding-right: 18px;
+}
+
+#products-list ul, #ib-product-licenses-granted {
+	padding-left: 0;
+}
+
+#products-list ul>li, #ib-product-licenses-granted>li {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+#products-list ol>li, #ib-product-licenses-granted ol>li {
+	font-weight: bold;
+}
+
+#ib-chosen-license-id {
+	display: none;
+}
+
+#sublicensee-list-label {
+	margin-bottom: 0.3em;
+}
+
+.no-available-licenses {
+	margin-top: 8px;
+	margin-left: 25px;
+}
+
+#ib-products-you-own-wrapper .interact-with-licenses.fl-button {
+	margin: 5px 0 0 25px;
+	padding: 6px 12px;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 16px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.interact-with-licenses.fl-button:hover, .interact-with-licenses.fl-button:visited, .interact-with-licenses.fl-button:active, .interact-with-licenses.fl-button:focus {
+	text-decoration: none;
+}
+
+#ib-invite-new-user-buttons-wrapper {
+	display: block;
+	padding-top: 10px;
+}
+
+#add-sublicensee-label, #sublicensee-successfully-added {
+	background-color: #5b9bd5;
+	color: #FFF;
+	padding: 5px 10px;
+	font-size: 16px;
+	text-align: center;
+}
+
+#add-sublicensee-label h4 {
+	margin-left: 15px;
+}
+
+#add-sublicensee-label a {
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#add-new-sublicensee {
+	margin-bottom: 20px;
+}
+
+#add-new-sublicensee .form-field {
+	margin-bottom: 5px;
+}
+
+#add-new-sublicensee .form-field label {
+	display: inline-block;
+	width: 100px;
+}
+
+#add-new-sublicensee .form-field input[type="text"], #add-new-sublicensee .form-field input[type="password"] {
+	display: inline-block;
+	width: 250px;
+}
+
+#add-new-sublicensee .error-field,
+#add-new-sublicensee #sublicensee-username.error-field,
+#add-new-sublicensee #sublicensee-email.error-field,
+#ib-move-subscriptions-from-another-account-wrapper .error-field {
+	border: 2px red solid;
+}
+
+.add-sublicensee-error-message {
+	display: none;
+	margin-left: 5px;
+	color: red;
+}
+
+#add-new-sublicensee.add-license {
+	background: none;
+	border: none;
+}
+
+#add-new-sublicensee .form-field label {
+	display: inline-block !important;
+	color: #555;
+	font-family: "OpenSans-Regular";
+}
+
+#add-new-sublicensee #sublicensee-username, #add-new-sublicensee #sublicensee-email {
+	width: 400px;
+	border: 2px solid #e5e5e5;
+	display: inline-block;
+}
+
+#ib-my-account-sublicensee-error {
+	border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	border-color: #DFDAC5 !important;
+	border-top-width: 0 !important;
+	border-bottom-width: 0 !important;
+	text-align: left;
+}
+
+#ib-my-account-sublicensee-error:before {
+	top: 1.357em;
+	left: 1.2em;
+}
+
+#ib-manage-your-licenses-title {
+	font-size: 30px;
+}
+
+#ib-products-you-own-wrapper h3, #ib-licenses-granted-wrapper h3 {
+	font-size: 24px;
+}
+
+#manage-your-licenses-form-wrapper>p {
+	text-align: left !important;
+	margin-bottom: 10px;
+}
+
+#ib-granted-licenses-owners-list {
+	display: none;
+}
+
+#ib-granted-licenses-owners {
+	margin: 0;
+	padding: 0;
+}
+
+#ib-granted-licenses-owners li:hover {
+	background-color: #FFF;
+	border: 1px solid #FFF;
+}
+
+
+/* "Move subscriptions from other accounts" block */
+
+#ib-move-subscriptions-from-another-account-wrapper {
+	margin-bottom: 25px;
+}
+
+#ib-move-subscriptions-from-another-account-wrapper h2 {
+	margin-top: 0;
+}
+
+#ib-move-account-subscriptions-submit-and-error-messages {
+	margin-top: 12px;
+}
+
+#ib-move-account-subscriptions-submit-and-error-messages tr>td:first-child {
+	width: 1%;
+}
+
+#ib-move-account-subscriptions-submit-and-error-messages tr>td>input {
+	margin-left: 3px;
+}
+
+#ib-move-account-subscriptions-submit-and-error-messages tr>td:last-child {
+	padding-left: 15px;
+}
+
+#ib-move-account-error {
+	color: red;
+}
+
+#ib-move-account-success {
+	color: green;
+}
+
+.iba-error {
+	color: red;
+	padding: 5px 0 0 105px;
+}
+
+
+
+/* My Account - Licenses */
+
+body.woocommerce-account .manage-licenses .product-title {
+	position: relative;
+}
+
+body.woocommerce-account .manage-licenses .product-thumbnail {
+	margin-right: 16px;
+}
+
+body.woocommerce-account .manage-licenses .product-title > div {
+	float: right;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Muli, sans-serif;
+	letter-spacing: normal;
+}
+
+body.woocommerce-account .manage-licenses .product-item ol {
+	counter-reset: my-counter;
+	list-style: none;
+	padding-left: 47px;
+	margin-bottom: 24px;
+}
+
+body.woocommerce-account .manage-licenses .product-item ol li {
+	counter-increment: my-counter;
+	position: relative;
+	margin-bottom: 8px;
+}
+
+body.woocommerce-account .manage-licenses .product-item ol li span {
+	display: inline-block;
+	height: 40px;
+	background-color: #eff5fd;
+	border-radius: 999px;
+	line-height: 40px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: calc(100% - 150px);
+	padding: 0 20px;
+}
+
+body.woocommerce-account .manage-licenses .product-item ol li span strong {
+	text-transform: capitalize;
+	color: #2B2E30;
+	font-weight: 800;
+}
+
+body.woocommerce-account .manage-licenses .product-item ol li:before {
+	content: counter(my-counter);
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-color: #eff5fd;
+	position: absolute;
+	top: 20px;
+	left: -28px;
+	transform: translate(-50%, -50%);
+	z-index: 0;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	color: #2B2E30;
+}
+
+body.woocommerce-account .manage-licenses .product-item a.deactivate-sublicensee-button {
+	line-height: 40px;
+	height: 40px;
+	width: 140px;
+	display: inline-block;
+	padding: 0 20px;
+	vertical-align: top;
+	background-color: #eff5fd;
+	border-radius: 999px;
+	margin-left: 8px;
+	text-align: center;
+}
+
+body.woocommerce-account .manage-licenses .product-item a.deactivate-sublicensee-button.spinner:before {
+	animation: fa-spin 2s infinite linear;
+	display: inline-block;
+}
+
+body.woocommerce-account .manage-licenses .product-item a.deactivate-sublicensee-button.spinner:before {
+	content: "\f1ce";
+	font-family: FontAwesome;
+}
+
+body.woocommerce-account .manage-licenses .product-item a.deactivate-sublicensee-button:before {
+	content: attr(title);
+}
+
+body.woocommerce-account .manage-licenses .sublicensee-forms-wrapper {
+	border-top: 1px solid #ededed;
+	padding-top: 20px;
+}
+
+body.woocommerce-account .manage-licenses .add-sublicensee-user {
+	background-color: #f7fafe;
+	border-radius: 3px;
+	padding: 24px;
+	margin-top: 16px;
+}
+
+body.woocommerce-account .manage-licenses .add-sublicensee-user .bg-warning {
+	background-color: #e1bc29;
+	padding: 10px 12px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 20px;
+	max-width: 500px;
+}
+
+body.woocommerce-account .manage-licenses .add-sublicensee-user form {
+	max-width: 500px;
+}
+
+body.woocommerce-account .manage-licenses .add-sublicensee-user .add-user-button {
+	width: 140px;
+}
+
+body.woocommerce-account .manage-licenses .add-sublicensee-user a.add-user-cancel-button {
+	background: #eff5fd;
+	color: #2A5EA7 !important;
+}
+
+@media screen and (max-width: 991px) {
+
+	body.woocommerce-account .manage-licenses .product-title > div {
+		float: none;
+	}
+
+	body.woocommerce-account .manage-licenses .product-item ol li span {
+		width: calc(100% - 50px);
+	}
+
+	body.woocommerce-account .manage-licenses .product-item a.deactivate-sublicensee-button {
+		width: auto;
+		padding: 0 14px;
+	}
+
+	body.woocommerce-account .manage-licenses .product-item a.deactivate-sublicensee-button:before {
+		content: "\f057";
+		font-family: FontAwesome;
+	}
+
+	body.woocommerce-account .manage-licenses .sublicensee-email-username {
+		margin-bottom: 20px;
+	}
+
+}
+
